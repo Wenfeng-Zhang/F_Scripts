@@ -1,0 +1,1 @@
+如果当前节点有file，file中有路径，那么可以使用快捷键shift+r将file节点路径生成一个Read节点。
