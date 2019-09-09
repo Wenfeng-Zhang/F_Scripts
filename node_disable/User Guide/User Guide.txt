@@ -1,0 +1,1 @@
+将选中的节点的disable关联到一个Constant节点disable上。达到同时关闭打开选中节点的目的。
