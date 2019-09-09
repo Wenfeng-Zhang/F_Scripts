@@ -1,0 +1,4 @@
+把这个文件夹拷贝到你的“用户名/.nuke”文件夹里，然后在.nuke文件夹里增加一个init.py文件（先txt然后改后缀），里面写入
+
+import os
+nuke.pluginAddPath(os.path.dirname(__file__)+'/OpticalFlares_Nuke')
