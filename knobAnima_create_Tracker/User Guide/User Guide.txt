@@ -1,0 +1,1 @@
+'BBox_Knob'和'XY_Knob'类按钮如果有动画，那么可以将动画生成“Tracker”节点。
