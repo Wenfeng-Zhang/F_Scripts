@@ -1,0 +1,6 @@
+循环导入一个文件夹里的子文件夹
+
+把当前文件夹拷贝到你的“用户”文件夹的“.nuke”文件夹里，然后在.nuke里的init.py里添加
+
+nuke.pluginAddPath(r"xxx\.nuke\dropFolders")，xxx表示你“用户”文件夹的完整路径，重启nuke。
+
