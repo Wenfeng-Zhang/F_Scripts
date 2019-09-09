@@ -1,0 +1,15 @@
+这个脚本集是由Wenfeng Zhang整理发布的，你可以将整个文件夹（F_Script）的路径直接添加到init.py文件里，这样全部脚本都将导入,也可以单独在init.py里添加某几个脚本,还可以选择不添加的脚本。每个
+
+
+全部添加
+nuke.pluginAddPath(x:\xxx\F_Script)
+
+
+或者添加单独某几个  XXXXX为脚本所在的文件夹名
+nuke.pluginAddPath(x:\xxx\F_Script\xxxx)
+nuke.pluginAddPath(x:\xxx\F_Script\xxxxx)
+nuke.pluginAddPath(x:\xxx\F_Script\xxxxxx)
+
+
+或者选中不添加的脚本
+在x:\xxx\F_Script  文件夹的init.py文件里找到Exclude_Files列表，以字符串形式添加到列表里Exclude_Files。
