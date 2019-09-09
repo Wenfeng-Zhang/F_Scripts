@@ -1,0 +1,5 @@
+将这个“AnimationMaler”文件夹放入你的“.nuke”文件夹里，然后在.nuke里添加你的文件名路径：
+
+
+nuke.pluginAddPath(r"C:\Users\你的用户名\.nuke\AnimationMaker")
+
