@@ -1,0 +1,1 @@
+from new_save_class import *
