@@ -1,0 +1,1 @@
+Open nuke to disconnect the first view of the Viewer node by default.
