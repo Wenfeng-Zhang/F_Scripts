@@ -14,6 +14,7 @@ import nuke
 def Shuffle_Short(shuffle_num=None):
     node = nuke.selectedNode()
     if not node or node.Class() != 'Shuffle':
+        nuke.message('The node type is not "Shuffle".')
         return False
     if node.Class() == "Shuffle":
         channel_list = [i for i in nuke.layers(node)]
