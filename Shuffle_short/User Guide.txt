@@ -1,0 +1,1 @@
+快捷键“alt+up/dowm”切换shuffle节点的“in”按钮的通道
